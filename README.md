@@ -11,6 +11,11 @@ No other way.
 
 ## Logs
 
+### 10.5.24
+
+1. Creation of initial tests and their respective fixtures.
+2. Creation of package and their respective organisation.
+
 ### 2.5.24
 
 1. Setup of environment and repository.

@@ -1,4 +1,21 @@
-data
+# System files
 .DS_Store
 .ipynb_checkpoints
-old_norm.py
+*.pyc
+*.swp
+build/
+dist/
+.coverage
+*.iml
+*.egg-info
+*.vscode
+
+# Data files
+*.csv
+*.sqlite
+*.zip
+
+# Other
+pytestdebug.log
+old
+data

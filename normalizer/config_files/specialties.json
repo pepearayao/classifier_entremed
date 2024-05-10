@@ -1,0 +1,12 @@
+{
+  "Enfermería":["enfermer.?","\beu\b"],
+  "Kinesiología":["kinesi.log.?","kinesiolog.?","fisioterapia","mesoterapia","erg.nomo","ergono[ií]a"],
+  "TENS":{
+      "Level1": ["r'tens?\b'"],
+      "Level2": {
+          "Patterns": ["t[eé]cnic","t[eé]c.?","tec"],
+          "Patterns_lvl2": ["enfermer.?"]
+      }
+  },
+  "Psicología":["psic.log.?","sicolog.","reclutador.?","reclutamiento","terapeuta","orientador laboral"]
+}
