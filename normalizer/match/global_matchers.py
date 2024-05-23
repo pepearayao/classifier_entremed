@@ -1,4 +1,8 @@
 import re
+from collections import Counter
+
+def get_non_empty_source_data(source_data:list):
+    return [data for data in source_data if data]
 
 def simple_regex_search(pattern:str,in_string:str):
     return re.search(pattern,in_string,re.IGNORECASE)
@@ -22,4 +26,9 @@ def find_all_matches(target_classes:dict, source_data:list):
                         if result_match: normalized_classes.append(*result_match)
             if isinstance(patterns, list):
                 if multiple_patterns_match(patterns, raw_data_item): normalized_classes.append(target_class)
-    return normalized_classes
+
+    return dict(Counter(normalized_classes))
+
+
+def find_first_match(target_classes:dict, source_data:list):
+    pass

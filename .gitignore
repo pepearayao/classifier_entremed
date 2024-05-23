@@ -19,3 +19,4 @@ dist/
 pytestdebug.log
 old
 data
+__pycache__/

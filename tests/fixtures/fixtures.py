@@ -2,7 +2,7 @@ import pytest
 import json
 
 @pytest.fixture(scope='session')
-def jobpost_sample():
+def jobpost_simple():
     return {
         'title': 'Enfermera - Especialista Equipos Médicos/Pabellón',
         'source_url': 'https://www.chiletrabajos.cl/encuentra-un-empleo?2=enfermera&13=&fecha=3&categoria=&8=&14=&inclusion=&f=2',

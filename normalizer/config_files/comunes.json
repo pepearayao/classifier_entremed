@@ -1,0 +1,3456 @@
+[
+  {
+    "type": "comune",
+    "name": "Arica",
+    "regex_type": "complex",
+    "regex": {
+      "level1": ["arica"],
+      "level2": [
+        {
+          "type": "reject",
+          "regex": ["punta.?arenas"]
+        }
+      ]
+    },
+    "data": {
+      "province": "Arica",
+      "region": "Arica y Parinacota"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Camarones",
+    "regex_type": "simple",
+    "regex": ["camarones"],
+    "data": {
+      "province": "Arica",
+      "region": "Arica y Parinacota"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Putre",
+    "regex_type": "simple",
+    "regex": ["putre"],
+    "data": {
+      "province": "Parinacota",
+      "region": "Arica y Parinacota"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "General Lagos",
+    "regex_type": "simple",
+    "regex": ["general.?lagos"],
+    "data": {
+      "province": "Parinacota",
+      "region": "Arica y Parinacota"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Iquique",
+    "regex_type": "simple",
+    "regex": ["iquique"],
+    "data": {
+      "province": "Iquique",
+      "region": "Tarapacá"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Alto Hospicio",
+    "regex_type": "simple",
+    "regex": ["alto.?hospicio"],
+    "data": {
+      "province": "Iquique",
+      "region": "Tarapacá"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Pozo Almonte",
+    "regex_type": "simple",
+    "regex": ["pozo.?almonte"],
+    "data": {
+      "province": "Tamarugal",
+      "region": "Tarapacá"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Camiña",
+    "regex_type": "simple",
+    "regex": ["cami[nñ]a"],
+    "data": {
+      "province": "Tamarugal",
+      "region": "Tarapacá"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Colchane",
+    "regex_type": "simple",
+    "regex": ["colchane"],
+    "data": {
+      "province": "Tamarugal",
+      "region": "Tarapacá"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Huara",
+    "regex_type": "simple",
+    "regex": ["huara"],
+    "data": {
+      "province": "Tamarugal",
+      "region": "Tarapacá"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Pica",
+    "regex_type": "simple",
+    "regex": ["pica"],
+    "data": {
+      "province": "Tamarugal",
+      "region": "Tarapacá"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Antofagasta",
+    "regex_type": "simple",
+    "regex": ["antofagasta"],
+    "data": {
+      "province": "Antofagasta",
+      "region": "Antofagasta"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Mejillones",
+    "regex_type": "simple",
+    "regex": ["mejillones"],
+    "data": {
+      "province": "Antofagasta",
+      "region": "Antofagasta"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Sierra Gorda",
+    "regex_type": "simple",
+    "regex": ["sierra.?gorda"],
+    "data": {
+      "province": "Antofagasta",
+      "region": "Antofagasta"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Taltal",
+    "regex_type": "simple",
+    "regex": ["taltal"],
+    "data": {
+      "province": "Antofagasta",
+      "region": "Antofagasta"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Calama",
+    "regex_type": "simple",
+    "regex": ["calama"],
+    "data": {
+      "province": "El Loa",
+      "region": "Antofagasta"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Ollagüe",
+    "regex_type": "simple",
+    "regex": ["ollag[uü]e"],
+    "data": {
+      "province": "El Loa",
+      "region": "Antofagasta"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Pedro de Atacama",
+    "regex_type": "simple",
+    "regex": ["san.?pedro.?de.?atacama"],
+    "data": {
+      "province": "El Loa",
+      "region": "Antofagasta"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Tocopilla",
+    "regex_type": "simple",
+    "regex": ["tocopilla"],
+    "data": {
+      "province": "Tocopilla",
+      "region": "Antofagasta"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "María Elena",
+    "regex_type": "simple",
+    "regex": ["mar[ií]a.?elena"],
+    "data": {
+      "province": "Tocopilla",
+      "region": "Antofagasta"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Copiapó",
+    "regex_type": "simple",
+    "regex": ["copiap[oó]"],
+    "data": {
+      "province": "Copiapó",
+      "region": "Atacama"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Caldera",
+    "regex_type": "simple",
+    "regex": ["caldera"],
+    "data": {
+      "province": "Copiapó",
+      "region": "Atacama"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Tierra Amarilla",
+    "regex_type": "simple",
+    "regex": ["tierra?amarilla"],
+    "data": {
+      "province": "Copiapó",
+      "region": "Atacama"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Chañaral",
+    "regex_type": "simple",
+    "regex": ["cha[nñ]aral"],
+    "data": {
+      "province": "Chañaral",
+      "region": "Atacama"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Diego de Almagro",
+    "regex_type": "simple",
+    "regex": ["diego.?de.?almagro"],
+    "data": {
+      "province": "Chañaral",
+      "region": "Atacama"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Vallenar",
+    "regex_type": "simple",
+    "regex": ["vallenar"],
+    "data": {
+      "province": "Huasco",
+      "region": "Atacama"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Alto del Carmen",
+    "regex_type": "simple",
+    "regex": ["alto.?del.?carmen"],
+    "data": {
+      "province": "Huasco",
+      "region": "Atacama"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Freirina",
+    "regex_type": "simple",
+    "regex": ["freirina"],
+    "data": {
+      "province": "Huasco",
+      "region": "Atacama"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Huasco",
+    "regex_type": "simple",
+    "regex": ["huasco"],
+    "data": {
+      "province": "Huasco",
+      "region": "Atacama"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "La Serena",
+    "regex_type": "simple",
+    "regex": ["la.?serena"],
+    "data": {
+      "province": "Elqui",
+      "region": "Coquimbo"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Coquimbo",
+    "regex_type": "simple",
+    "regex": ["coquimbo"],
+    "data": {
+      "province": "Elqui",
+      "region": "Coquimbo"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Andacollo",
+    "regex_type": "simple",
+    "regex": ["andacollo"],
+    "data": {
+      "province": "Elqui",
+      "region": "Coquimbo"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "La Higuera",
+    "regex_type": "simple",
+    "regex": ["la.?higuera"],
+    "data": {
+      "province": "Elqui",
+      "region": "Coquimbo"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Paiguano",
+    "regex_type": "simple",
+    "regex": ["paiguano"],
+    "data": {
+      "province": "Elqui",
+      "region": "Coquimbo"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Vicuña",
+    "regex_type": "simple",
+    "regex": ["vicu[nñ]a"],
+    "data": {
+      "province": "Elqui",
+      "region": "Coquimbo"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Illapel",
+    "regex_type": "simple",
+    "regex": ["illapel"],
+    "data": {
+      "province": "Choapa",
+      "region": "Coquimbo"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Canela",
+    "regex_type": "simple",
+    "regex": ["canela"],
+    "data": {
+      "province": "Choapa",
+      "region": "Coquimbo"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Los Vilos",
+    "regex_type": "simple",
+    "regex": ["los.?vilos"],
+    "data": {
+      "province": "Choapa",
+      "region": "Coquimbo"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Salamanca",
+    "regex_type": "simple",
+    "regex": ["salamanca"],
+    "data": {
+      "province": "Choapa",
+      "region": "Coquimbo"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Ovalle",
+    "regex_type": "simple",
+    "regex": ["ovalle"],
+    "data": {
+      "province": "Limarí",
+      "region": "Coquimbo"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Combarbalá",
+    "regex_type": "simple",
+    "regex": ["combarbal[aá]"],
+    "data": {
+      "province": "Limarí",
+      "region": "Coquimbo"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Monte Patria",
+    "regex_type": "simple",
+    "regex": ["monte.?patria"],
+    "data": {
+      "province": "Limarí",
+      "region": "Coquimbo"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Punitaqui",
+    "regex_type": "simple",
+    "regex": ["punitaqui"],
+    "data": {
+      "province": "Limarí",
+      "region": "Coquimbo"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Río Hurtado",
+    "regex_type": "simple",
+    "regex": ["r[ií]o.?hurtado"],
+    "data": {
+      "province": "Limarí",
+      "region": "Coquimbo"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Quilpué",
+    "regex_type": "simple",
+    "regex": ["quilpu[eé]"],
+    "data": {
+      "province": "Marga Marga",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Limache",
+    "regex_type": "simple",
+    "regex": ["limache"],
+    "data": {
+      "province": "Marga Marga",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Olmué",
+    "regex_type": "simple",
+    "regex": ["olmu[eé]"],
+    "data": {
+      "province": "Marga Marga",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Villa Alemana",
+    "regex_type": "simple",
+    "regex": ["villa.?alemana"],
+    "data": {
+      "province": "Marga Marga",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Valparaíso",
+    "regex_type": "simple",
+    "regex": ["valpara[ií]so"],
+    "data": {
+      "province": "Valparaíso",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Casablanca",
+    "regex_type": "simple",
+    "regex": ["casablanca"],
+    "data": {
+      "province": "Valparaíso",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Concón",
+    "regex_type": "simple",
+    "regex": ["con.?c[oó]n"],
+    "data": {
+      "province": "Valparaíso",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Juan Fernández",
+    "regex_type": "simple",
+    "regex": ["juan.?fern[aá]nde[zs]"],
+    "data": {
+      "province": "Valparaíso",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Puchuncaví",
+    "regex_type": "simple",
+    "regex": ["puchuncav[ií]","maitencillo"],
+    "data": {
+      "province": "Valparaíso",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Quintero",
+    "regex_type": "simple",
+    "regex": ["quintero"],
+    "data": {
+      "province": "Valparaíso",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Viña del Mar",
+    "regex_type": "simple",
+    "regex": ["vi[nñ]a.?del.?mar"],
+    "data": {
+      "province": "Valparaíso",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Isla de Pascua",
+    "regex_type": "simple",
+    "regex": ["isla.?de.?pascua"],
+    "data": {
+      "province": "Isla de Pascua",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Los Andes",
+    "regex_type": "complex",
+    "regex": {
+      "level1": ["los.?andes"],
+      "level2": [
+        {
+          "type": "reject",
+          "regex": ["universidad"]
+        }
+      ]
+    },
+    "data": {
+      "province": "Los Andes",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Calle Larga",
+    "regex_type": "simple",
+    "regex": ["calle.?larga"],
+    "data": {
+      "province": "Los Andes",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Rinconada",
+    "regex_type": "simple",
+    "regex": ["rinconada"],
+    "data": {
+      "province": "Los Andes",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Esteban",
+    "regex_type": "simple",
+    "regex": ["san.?esteban"],
+    "data": {
+      "province": "Los Andes",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "La Ligua",
+    "regex_type": "simple",
+    "regex": ["la.?ligua"],
+    "data": {
+      "province": "Petorca",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Cabildo",
+    "regex_type": "simple",
+    "regex": ["cabildo"],
+    "data": {
+      "province": "Petorca",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Papudo",
+    "regex_type": "simple",
+    "regex": ["papudo"],
+    "data": {
+      "province": "Petorca",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Petorca",
+    "regex_type": "simple",
+    "regex": ["petorca"],
+    "data": {
+      "province": "Petorca",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Zapallar",
+    "regex_type": "simple",
+    "regex": ["zapallar"],
+    "data": {
+      "province": "Petorca",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Quillota",
+    "regex_type": "simple",
+    "regex": ["quillota"],
+    "data": {
+      "province": "Quillota",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "La Calera",
+    "regex_type": "simple",
+    "regex": ["calera"],
+    "data": {
+      "province": "Quillota",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Hijuelas",
+    "regex_type": "simple",
+    "regex": ["hijuelas"],
+    "data": {
+      "province": "Quillota",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "La Cruz",
+    "regex_type": "simple",
+    "regex": ["la.?cruz"],
+    "data": {
+      "province": "Quillota",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Nogales",
+    "regex_type": "simple",
+    "regex": ["nogales"],
+    "data": {
+      "province": "Quillota",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Antonio",
+    "regex_type": "simple",
+    "regex": ["san.?antonio"],
+    "data": {
+      "province": "San Antonio",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Algarrobo",
+    "regex_type": "simple",
+    "regex": ["algarrobo"],
+    "data": {
+      "province": "San Antonio",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Cartagena",
+    "regex_type": "simple",
+    "regex": ["cartagena"],
+    "data": {
+      "province": "San Antonio",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "El Quisco",
+    "regex_type": "simple",
+    "regex": ["el.?quisco"],
+    "data": {
+      "province": "San Antonio",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "El Tabo",
+    "regex_type": "simple",
+    "regex": ["el.?tabo"],
+    "data": {
+      "province": "San Antonio",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Santo Domingo",
+    "regex_type": "simple",
+    "regex": ["santo.?domingo"],
+    "data": {
+      "province": "San Antonio",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Felipe",
+    "regex_type": "simple",
+    "regex": ["san.?felipe"],
+    "data": {
+      "province": "San Felipe de Aconcagua",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Catemu",
+    "regex_type": "simple",
+    "regex": ["catemu"],
+    "data": {
+      "province": "San Felipe de Aconcagua",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Llaillay",
+    "regex_type": "simple",
+    "regex": ["llaillay"],
+    "data": {
+      "province": "San Felipe de Aconcagua",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Panquehue",
+    "regex_type": "simple",
+    "regex": ["panquehue"],
+    "data": {
+      "province": "San Felipe de Aconcagua",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Putaendo",
+    "regex_type": "simple",
+    "regex": ["putaendo"],
+    "data": {
+      "province": "San Felipe de Aconcagua",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Santa María",
+    "regex_type": "simple",
+    "regex": ["santa.?mar[ií]a"],
+    "data": {
+      "province": "San Felipe de Aconcagua",
+      "region": "Valparaíso"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Rancagua",
+    "regex_type": "simple",
+    "regex": ["rancagua"],
+    "data": {
+      "province": "Cachapoal",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Codegua",
+    "regex_type": "simple",
+    "regex": ["codegua"],
+    "data": {
+      "province": "Cachapoal",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Coinco",
+    "regex_type": "simple",
+    "regex": ["coinco"],
+    "data": {
+      "province": "Cachapoal",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Coltauco",
+    "regex_type": "simple",
+    "regex": ["coltauco"],
+    "data": {
+      "province": "Cachapoal",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Doñihue",
+    "regex_type": "simple",
+    "regex": ["do[nñ]ihue"],
+    "data": {
+      "province": "Cachapoal",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Graneros",
+    "regex_type": "simple",
+    "regex": ["graneros"],
+    "data": {
+      "province": "Cachapoal",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Las Cabras",
+    "regex_type": "simple",
+    "regex": ["las.?cabras"],
+    "data": {
+      "province": "Cachapoal",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Machalí",
+    "regex_type": "simple",
+    "regex": ["machal[ií]"],
+    "data": {
+      "province": "Cachapoal",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Malloa",
+    "regex_type": "simple",
+    "regex": ["malloa"],
+    "data": {
+      "province": "Cachapoal",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Mostazal",
+    "regex_type": "simple",
+    "regex": ["mostazal"],
+    "data": {
+      "province": "Cachapoal",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Olivar",
+    "regex_type": "simple",
+    "regex": ["olivar"],
+    "data": {
+      "province": "Cachapoal",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Peumo",
+    "regex_type": "simple",
+    "regex": ["peumo"],
+    "data": {
+      "province": "Cachapoal",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Pichidegua",
+    "regex_type": "simple",
+    "regex": ["pichidegua"],
+    "data": {
+      "province": "Cachapoal",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Quinta de Tilcoco",
+    "regex_type": "simple",
+    "regex": ["quinta.?de.?tilcoco"],
+    "data": {
+      "province": "Cachapoal",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Rengo",
+    "regex_type": "simple",
+    "regex": ["rengo"],
+    "data": {
+      "province": "Cachapoal",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Requínoa",
+    "regex_type": "simple",
+    "regex": ["requ[ií]noa"],
+    "data": {
+      "province": "Cachapoal",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Vicente",
+    "regex_type": "simple",
+    "regex": ["san.?vicente"],
+    "data": {
+      "province": "Cachapoal",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Pichilemu",
+    "regex_type": "simple",
+    "regex": ["pichilemu"],
+    "data": {
+      "province": "Cardenal Caro",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "La Estrella",
+    "regex_type": "simple",
+    "regex": ["la.?estrella"],
+    "data": {
+      "province": "Cardenal Caro",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Litueche",
+    "regex_type": "simple",
+    "regex": ["litueche"],
+    "data": {
+      "province": "Cardenal Caro",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Marchihue",
+    "regex_type": "simple",
+    "regex": ["marchihue"],
+    "data": {
+      "province": "Cardenal Caro",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Navidad",
+    "regex_type": "simple",
+    "regex": ["navidad"],
+    "data": {
+      "province": "Cardenal Caro",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Paredones",
+    "regex_type": "simple",
+    "regex": ["paredones"],
+    "data": {
+      "province": "Cardenal Caro",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Fernando",
+    "regex_type": "simple",
+    "regex": ["san.?fernando"],
+    "data": {
+      "province": "Colchagua",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Chépica",
+    "regex_type": "simple",
+    "regex": ["ch[eé]pica"],
+    "data": {
+      "province": "Colchagua",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Chimbarongo",
+    "regex_type": "simple",
+    "regex": ["chimbarongo"],
+    "data": {
+      "province": "Colchauga",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Lolol",
+    "regex_type": "simple",
+    "regex": ["lolol"],
+    "data": {
+      "province": "Colchagua",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Nancagua",
+    "regex_type": "simple",
+    "regex": ["nancagua"],
+    "data": {
+      "province": "Colchagua",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Palmilla",
+    "regex_type": "simple",
+    "regex": ["palmilla"],
+    "data": {
+      "province": "Colchagua",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Peralillo",
+    "regex_type": "simple",
+    "regex": ["peralillo"],
+    "data": {
+      "province": "Colchagua",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Placilla",
+    "regex_type": "simple",
+    "regex": ["placilla"],
+    "data": {
+      "province": "Colchagua",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Pumanque",
+    "regex_type": "simple",
+    "regex": ["pumanque"],
+    "data": {
+      "province": "Colchagua",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Santa Cruz",
+    "regex_type": "simple",
+    "regex": ["santa.?cruz"],
+    "data": {
+      "province": "Colchagua",
+      "region": "O'Higgins"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Talca",
+    "regex_type": "simple",
+    "regex": ["talca"],
+    "data": {
+      "province": "Talca",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Constitución",
+    "regex_type": "simple",
+    "regex": ["constituci[oó]n"],
+    "data": {
+      "province": "Talca",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Curepto",
+    "regex_type": "simple",
+    "regex": ["curepto"],
+    "data": {
+      "province": "Talca",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Empedrado",
+    "regex_type": "simple",
+    "regex": ["empedrado"],
+    "data": {
+      "province": "Talca",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Maule",
+    "regex_type": "simple",
+    "regex": ["maule"],
+    "data": {
+      "province": "Talca",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Pelarco",
+    "regex_type": "simple",
+    "regex": ["pelarco"],
+    "data": {
+      "province": "Talca",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Pencahue",
+    "regex_type": "simple",
+    "regex": ["pencahue"],
+    "data": {
+      "province": "Talca",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Río Claro",
+    "regex_type": "simple",
+    "regex": ["r[ií]o.?claro"],
+    "data": {
+      "province": "Talca",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Clemente",
+    "regex_type": "simple",
+    "regex": ["san.?clemente"],
+    "data": {
+      "province": "Talca",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Rafael",
+    "regex_type": "simple",
+    "regex": ["san.?rafael"],
+    "data": {
+      "province": "Talca",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Cauquenes",
+    "regex_type": "simple",
+    "regex": ["cauquenes"],
+    "data": {
+      "province": "Cauquenes",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Chanco",
+    "regex_type": "simple",
+    "regex": ["chanco"],
+    "data": {
+      "province": "Cauquenes",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Pelluhue",
+    "regex_type": "simple",
+    "regex": ["pelluhue"],
+    "data": {
+      "province": "Cauquenes",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Curicó",
+    "regex_type": "simple",
+    "regex": ["curic[oó]"],
+    "data": {
+      "province": "Curicó",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Hualañé",
+    "regex_type": "simple",
+    "regex": ["huala[nñ][eé]"],
+    "data": {
+      "province": "Curicó",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Licantén",
+    "regex_type": "simple",
+    "regex": ["licant[eé]n"],
+    "data": {
+      "province": "Curicó",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Molina",
+    "regex_type": "simple",
+    "regex": ["molina"],
+    "data": {
+      "province": "Curicó",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Rauco",
+    "regex_type": "simple",
+    "regex": ["rauco"],
+    "data": {
+      "province": "Curicó",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Romeral",
+    "regex_type": "simple",
+    "regex": ["romeral"],
+    "data": {
+      "province": "Curicó",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Sagrada Familia",
+    "regex_type": "simple",
+    "regex": ["sagrada.?familia"],
+    "data": {
+      "province": "Curicó",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Teno",
+    "regex_type": "simple",
+    "regex": ["teno"],
+    "data": {
+      "province": "Curicó",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Vichuquén",
+    "regex_type": "simple",
+    "regex": ["vichuqu[eé]n"],
+    "data": {
+      "province": "Curicó",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Linares",
+    "regex_type": "simple",
+    "regex": ["linares"],
+    "data": {
+      "province": "Linares",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Colbún",
+    "regex_type": "simple",
+    "regex": ["colb[uú]n"],
+    "data": {
+      "province": "Linares",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Longaví",
+    "regex_type": "simple",
+    "regex": ["longav[ií]"],
+    "data": {
+      "province": "Linares",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Parral",
+    "regex_type": "simple",
+    "regex": ["parral"],
+    "data": {
+      "province": "Linares",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Retiro",
+    "regex_type": "simple",
+    "regex": ["retiro"],
+    "data": {
+      "province": "Linares",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Javier",
+    "regex_type": "simple",
+    "regex": ["san.?javier"],
+    "data": {
+      "province": "Linares",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Villa Alegre",
+    "regex_type": "simple",
+    "regex": ["villa.?alegre"],
+    "data": {
+      "province": "Linares",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Yerbas Buenas",
+    "regex_type": "simple",
+    "regex": ["yerbas.?buenas"],
+    "data": {
+      "province": "Linares",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Chillán",
+    "regex_type": "simple",
+    "regex": ["chill[aá]n"],
+    "data": {
+      "province": "Diguillín",
+      "region": "Ñuble"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Chillán Viejo",
+    "regex_type": "simple",
+    "regex": ["chill[áa]n.?viejo"],
+    "data": {
+      "province": "Diguillín",
+      "region": "Ñuble"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Quillón",
+    "regex_type": "simple",
+    "regex": ["quill[oó]n"],
+    "data": {
+      "province": "Diguillín",
+      "region": "Ñuble"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Bulnes",
+    "regex_type": "simple",
+    "regex": ["bulnes"],
+    "data": {
+      "province": "Diguillín",
+      "region": "Ñuble"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Ignacio",
+    "regex_type": "simple",
+    "regex": ["san.?ignacio"],
+    "data": {
+      "province": "Diguillín",
+      "region": "Ñuble"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "El Carmen",
+    "regex_type": "simple",
+    "regex": ["el.?carmen"],
+    "data": {
+      "province": "Diguillín",
+      "region": "Ñuble"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Pinto",
+    "regex_type": "simple",
+    "regex": ["pinto"],
+    "data": {
+      "province": "Diguillín",
+      "region": "Ñuble"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Pemuco",
+    "regex_type": "simple",
+    "regex": ["pemuco"],
+    "data": {
+      "province": "Diguillín",
+      "region": "Ñuble"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Yungay",
+    "regex_type": "simple",
+    "regex": ["yungay"],
+    "data": {
+      "province": "Diguillín",
+      "region": "Ñuble"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Quirihue",
+    "regex_type": "simple",
+    "regex": ["quirihue"],
+    "data": {
+      "province": "Itata",
+      "region": "Ñuble"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Cobquecura",
+    "regex_type": "simple",
+    "regex": ["cobquecura"],
+    "data": {
+      "province": "Itata",
+      "region": "Ñuble"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Coelemu",
+    "regex_type": "simple",
+    "regex": ["coelemu"],
+    "data": {
+      "province": "Itata",
+      "region": "Ñuble"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Ninhue",
+    "regex_type": "simple",
+    "regex": ["ninhue"],
+    "data": {
+      "province": "Itata",
+      "region": "Ñuble"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Portezuelo",
+    "regex_type": "simple",
+    "regex": ["portezuelo"],
+    "data": {
+      "province": "Itata",
+      "region": "Ñuble"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Ránquil",
+    "regex_type": "simple",
+    "regex": ["r[aá]nquil"],
+    "data": {
+      "province": "Itata",
+      "region": "Ñuble"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Treguaco",
+    "regex_type": "simple",
+    "regex": ["treguaco"],
+    "data": {
+      "province": "Itata",
+      "region": "Ñuble"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Carlos",
+    "regex_type": "simple",
+    "regex": ["san.?carlos"],
+    "data": {
+      "province": "Punilla",
+      "region": "Ñuble"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Coihueco",
+    "regex_type": "simple",
+    "regex": ["coihueco"],
+    "data": {
+      "province": "Punilla",
+      "region": "Ñuble"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Ñiquén",
+    "regex_type": "simple",
+    "regex": ["[nñ]iqu[eé]n"],
+    "data": {
+      "province": "Punilla",
+      "region": "Ñuble"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Fabián",
+    "regex_type": "simple",
+    "regex": ["san.?f[aá]bian"],
+    "data": {
+      "province": "Punilla",
+      "region": "Ñuble"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Nicolás",
+    "regex_type": "simple",
+    "regex": ["san.?nicol[aá]s"],
+    "data": {
+      "province": "Punilla",
+      "region": "Ñuble"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Concepción",
+    "regex_type": "simple",
+    "regex": ["concepci[oó]n"],
+    "data": {
+      "province": "Concepción",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Coronel",
+    "regex_type": "simple",
+    "regex": ["coronel"],
+    "data": {
+      "province": "Concepción",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Chiguayante",
+    "regex_type": "simple",
+    "regex": ["chiguayante"],
+    "data": {
+      "province": "Concepción",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Florida",
+    "regex_type": "simple",
+    "regex": ["florida"],
+    "data": {
+      "province": "Concepción",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Hualqui",
+    "regex_type": "simple",
+    "regex": ["hualqui"],
+    "data": {
+      "province": "Concepción",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Lota",
+    "regex_type": "simple",
+    "regex": ["lota"],
+    "data": {
+      "province": "Concepción",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Penco",
+    "regex_type": "simple",
+    "regex": ["penco"],
+    "data": {
+      "province": "Concepción",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Pedro de La Paz",
+    "regex_type": "simple",
+    "regex": ["san.?pedro.?de.?la.?paz"],
+    "data": {
+      "province": "Concepción",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Santa Juana",
+    "regex_type": "simple",
+    "regex": ["santa.?juana"],
+    "data": {
+      "province": "Concepción",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Talcahuano",
+    "regex_type": "simple",
+    "regex": ["talcahuano"],
+    "data": {
+      "province": "Concepción",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Tomé",
+    "regex_type": "simple",
+    "regex": ["tom[eé]"],
+    "data": {
+      "province": "Concepción",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Hualpén",
+    "regex_type": "simple",
+    "regex": ["hualp[eé]n"],
+    "data": {
+      "province": "Concepción",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Lebu",
+    "regex_type": "simple",
+    "regex": ["lebu"],
+    "data": {
+      "province": "Arauco",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Arauco",
+    "regex_type": "simple",
+    "regex": ["arauco"],
+    "data": {
+      "province": "Arauco",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Cañete",
+    "regex_type": "simple",
+    "regex": ["ca[nñ]ete"],
+    "data": {
+      "province": "Arauco",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Contulmo",
+    "regex_type": "simple",
+    "regex": ["contulmo"],
+    "data": {
+      "province": "Arauco",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Curanilahue",
+    "regex_type": "simple",
+    "regex": ["curanilahue"],
+    "data": {
+      "province": "Arauco",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Los Álamos",
+    "regex_type": "simple",
+    "regex": ["los.?[aá]lamos"],
+    "data": {
+      "province": "Arauco",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Tirúa",
+    "regex_type": "simple",
+    "regex": ["tir[uú]a"],
+    "data": {
+      "province": "Arauco",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Los Ángeles",
+    "regex_type": "simple",
+    "regex": ["los.?angeles"],
+    "data":{
+      "province": "Biobío",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Antuco",
+    "regex_type": "simple",
+    "regex": ["antuco"],
+    "data":{
+      "province": "Biobío",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Cabrero",
+    "regex_type": "simple",
+    "regex": ["cabrero"],
+    "data":{
+      "province": "Biobío",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Laja",
+    "regex_type": "simple",
+    "regex": ["laja"],
+    "data":{
+      "province": "Biobío",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Mulchén",
+    "regex_type": "simple",
+    "regex": ["mulch[eé]n"],
+    "data":{
+      "province": "Biobío",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Nacimiento",
+    "regex_type": "simple",
+    "regex": ["nacimiento"],
+    "data":{
+      "province": "Biobío",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Negrete",
+    "regex_type": "simple",
+    "regex": ["negrete"],
+    "data":{
+      "province": "Biobío",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Quilaco",
+    "regex_type": "simple",
+    "regex": ["quilaco"],
+    "data":{
+      "province": "Biobío",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Quilleco",
+    "regex_type": "simple",
+    "regex": ["quilleco"],
+    "data":{
+      "province": "Biobío",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Rosendo",
+    "regex_type": "simple",
+    "regex": ["san.?rosendo"],
+    "data":{
+      "province": "Biobío",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Santa Bárbara",
+    "regex_type": "simple",
+    "regex": ["santa.?b[aá]rbara"],
+    "data":{
+      "province": "Biobío",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Tucapel",
+    "regex_type": "simple",
+    "regex": ["tucapel"],
+    "data":{
+      "province": "Biobío",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Yumbel",
+    "regex_type": "simple",
+    "regex": ["yumbel"],
+    "data":{
+      "province": "Biobío",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Alto Biobío",
+    "regex_type": "simple",
+    "regex": ["alto.?biob[ií]o"],
+    "data":{
+      "province": "Biobío",
+      "region": "Biobío"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Temuco",
+    "regex_type": "simple",
+    "regex": ["temuco"],
+    "data":{
+      "province": "Cautín",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Carahue",
+    "regex_type": "simple",
+    "regex": ["carahue"],
+    "data":{
+      "province": "Cautín",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Cunco",
+    "regex_type": "simple",
+    "regex": ["cunco"],
+    "data":{
+      "province": "Cautín",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Curarrehue",
+    "regex_type": "simple",
+    "regex": ["curarrehue"],
+    "data":{
+      "province": "Cautín",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Freire",
+    "regex_type": "simple",
+    "regex": ["freire"],
+    "data":{
+      "province": "Cautín",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Galvarino",
+    "regex_type": "simple",
+    "regex": ["galvarino"],
+    "data":{
+      "province": "Cautín",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Gorbea",
+    "regex_type": "simple",
+    "regex": ["gorbea"],
+    "data":{
+      "province": "Cautín",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Lautaro",
+    "regex_type": "simple",
+    "regex": ["lautaro"],
+    "data":{
+      "province": "Cautín",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Loncoche",
+    "regex_type": "simple",
+    "regex": ["loncoche"],
+    "data":{
+      "province": "Cautín",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Melipeuco",
+    "regex_type": "simple",
+    "regex": ["melipeuco"],
+    "data":{
+      "province": "Cautín",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Nueva Imperial",
+    "regex_type": "simple",
+    "regex": ["nueva.?imperial"],
+    "data":{
+      "province": "Cautín",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Padre Las Casas",
+    "regex_type": "simple",
+    "regex": ["padre.?las.?casas"],
+    "data":{
+      "province": "Cautín",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Perquenco",
+    "regex_type": "simple",
+    "regex": ["perquenco"],
+    "data":{
+      "province": "Cautín",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Pitrufquén",
+    "regex_type": "simple",
+    "regex": ["pitrufqu[eé]n"],
+    "data":{
+      "province": "Cautín",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Pucón",
+    "regex_type": "simple",
+    "regex": ["puc[oó]n"],
+    "data":{
+      "province": "Cautín",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Saavedra",
+    "regex_type": "simple",
+    "regex": ["saavedra"],
+    "data":{
+      "province": "Cautín",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Teodoro Schmidt",
+    "regex_type": "simple",
+    "regex": ["tedoro.?schmidt"],
+    "data":{
+      "province": "Cautín",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Toltén",
+    "regex_type": "simple",
+    "regex": ["tolt[eé]n"],
+    "data":{
+      "province": "Cautín",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Vilcún",
+    "regex_type": "simple",
+    "regex": ["vilc[uú]n"],
+    "data":{
+      "province": "Cautín",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Villarrica",
+    "regex_type": "simple",
+    "regex": ["villarrica"],
+    "data":{
+      "province": "Cautín",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Cholchol",
+    "regex_type": "simple",
+    "regex": ["cholchol"],
+    "data":{
+      "province": "Cautín",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Angol",
+    "regex_type": "simple",
+    "regex": ["angol"],
+    "data":{
+      "province": "Malleco",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Collipulli",
+    "regex_type": "simple",
+    "regex": ["collipulli"],
+    "data":{
+      "province": "Malleco",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Curacautín",
+    "regex_type": "simple",
+    "regex": ["curacaut[ií]n"],
+    "data":{
+      "province": "Malleco",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Ercilla",
+    "regex_type": "simple",
+    "regex": ["ercilla"],
+    "data":{
+      "province": "Malleco",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Lonquimay",
+    "regex_type": "simple",
+    "regex": ["lonquimay"],
+    "data":{
+      "province": "Malleco",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Los Sauces",
+    "regex_type": "simple",
+    "regex": ["los.?sauces"],
+    "data":{
+      "province": "Malleco",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Lumaco",
+    "regex_type": "simple",
+    "regex": ["lumaco"],
+    "data":{
+      "province": "Malleco",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Purén",
+    "regex_type": "simple",
+    "regex": ["pur[eé]n"],
+    "data":{
+      "province": "Malleco",
+      "region": "La Araucanía"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Valdivia",
+    "regex_type": "simple",
+    "regex": ["valdivia"],
+    "data":{
+      "province": "Valdivia",
+      "region": "Los Ríos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Corral",
+    "regex_type": "simple",
+    "regex": ["corral"],
+    "data":{
+      "province": "Valdivia",
+      "region": "Los Ríos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Lanco",
+    "regex_type": "simple",
+    "regex": ["lanco"],
+    "data":{
+      "province": "Valdivia",
+      "region": "Los Ríos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Los Lagos",
+    "regex_type": "simple",
+    "regex": ["los.?lagos"],
+    "data":{
+      "province": "Valdivia",
+      "region": "Los Ríos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Máfil",
+    "regex_type": "simple",
+    "regex": ["m[aá]fil"],
+    "data":{
+      "province": "Valdivia",
+      "region": "Los Ríos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Mariquina",
+    "regex_type": "simple",
+    "regex": ["mariquina"],
+    "data":{
+      "province": "Valdivia",
+      "region": "Los Ríos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Paillaco",
+    "regex_type": "simple",
+    "regex": ["paillaco"],
+    "data":{
+      "province": "Valdivia",
+      "region": "Los Ríos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Panguipulli",
+    "regex_type": "simple",
+    "regex": ["panguipulli"],
+    "data":{
+      "province": "Valdivia",
+      "region": "Los Ríos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "La Unión",
+    "regex_type": "simple",
+    "regex": ["la.?uni[oó]n"],
+    "data":{
+      "province": "Ranco",
+      "region": "Los Ríos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Futrono",
+    "regex_type": "simple",
+    "regex": ["futrono"],
+    "data":{
+      "province": "Ranco",
+      "region": "Los Ríos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Lago Ranco",
+    "regex_type": "simple",
+    "regex": ["lago.?ranco"],
+    "data":{
+      "province": "Ranco",
+      "region": "Los Ríos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Río Bueno",
+    "regex_type": "simple",
+    "regex": ["r[ií]o.?bueno"],
+    "data":{
+      "province": "Ranco",
+      "region": "Los Ríos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Puerto Montt",
+    "regex_type": "simple",
+    "regex": ["puerto.?montt"],
+    "data":{
+      "province": "Llanquihue",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Calbuco",
+    "regex_type": "simple",
+    "regex": ["calbuco"],
+    "data":{
+      "province": "Llanquihue",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Cochamó",
+    "regex_type": "simple",
+    "regex": ["cocham[oó]"],
+    "data":{
+      "province": "Llanquihue",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Fresia",
+    "regex_type": "simple",
+    "regex": ["fresia"],
+    "data":{
+      "province": "Llanquihue",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Frutillar",
+    "regex_type": "simple",
+    "regex": ["frutillar"],
+    "data":{
+      "province": "Llanquihue",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Los Muermos",
+    "regex_type": "simple",
+    "regex": ["los.?muermos"],
+    "data":{
+      "province": "Llanquihue",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Llanquihue",
+    "regex_type": "simple",
+    "regex": ["llanquihue"],
+    "data":{
+      "province": "Llanquihue",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Maullín",
+    "regex_type": "simple",
+    "regex": ["maull[ií]n"],
+    "data":{
+      "province": "Llanquihue",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Puerto Varas",
+    "regex_type": "simple",
+    "regex": ["puerto.?varas"],
+    "data":{
+      "province": "Llanquihue",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Ancud",
+    "regex_type": "simple",
+    "regex": ["ancud"],
+    "data":{
+      "province": "Chiloé",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Castro",
+    "regex_type": "simple",
+    "regex": ["castro"],
+    "data":{
+      "province": "Chiloé",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Chonchi",
+    "regex_type": "simple",
+    "regex": ["chonchi"],
+    "data":{
+      "province": "Chiloé",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Curaco de Vélez",
+    "regex_type": "simple",
+    "regex": ["curaco.?de.?v[eé]lez"],
+    "data":{
+      "province": "Chiloé",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Dalcahue",
+    "regex_type": "simple",
+    "regex": ["dalcahue"],
+    "data":{
+      "province": "Chiloé",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Pulquedón",
+    "regex_type": "simple",
+    "regex": ["pulqued[oó]n"],
+    "data":{
+      "province": "Chiloé",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Queilén",
+    "regex_type": "simple",
+    "regex": ["queil[eé]n"],
+    "data":{
+      "province": "Chiloé",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Quellón",
+    "regex_type": "simple",
+    "regex": ["quell[oó]n"],
+    "data":{
+      "province": "Chiloé",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Quenchi",
+    "regex_type": "simple",
+    "regex": ["quenchi"],
+    "data":{
+      "province": "Chiloé",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Quinchao",
+    "regex_type": "simple",
+    "regex": ["quinchao"],
+    "data":{
+      "province": "Chiloé",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Osorno",
+    "regex_type": "simple",
+    "regex": ["osorno"],
+    "data":{
+      "province": "Osorno",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Puerto Octay",
+    "regex_type": "simple",
+    "regex": ["puerto.?octay"],
+    "data":{
+      "province": "Osorno",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Purranque",
+    "regex_type": "simple",
+    "regex": ["purranque"],
+    "data":{
+      "province": "Osorno",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Puyehue",
+    "regex_type": "simple",
+    "regex": ["puyehue"],
+    "data":{
+      "province": "Osorno",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Río Bueno",
+    "regex_type": "simple",
+    "regex": ["r[ií]o.?bueno"],
+    "data":{
+      "province": "Osorno",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Juan de la Costa",
+    "regex_type": "simple",
+    "regex": ["san.?juan.?de.?la.?costa"],
+    "data":{
+      "province": "Osorno",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Pablo",
+    "regex_type": "simple",
+    "regex": ["san.?pablo"],
+    "data":{
+      "province": "Osorno",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Chaitén",
+    "regex_type": "simple",
+    "regex": ["chait[eé]n"],
+    "data":{
+      "province": "Palena",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Futaleufú",
+    "regex_type": "simple",
+    "regex": ["futaleuf[uú]"],
+    "data":{
+      "province": "Palena",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Hualaihué",
+    "regex_type": "simple",
+    "regex": ["hualaihu[eé]"],
+    "data":{
+      "province": "Palena",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Palena",
+    "regex_type": "simple",
+    "regex": ["palena"],
+    "data":{
+      "province": "Palena",
+      "region": "Los Lagos"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Coyhaique",
+    "regex_type": "simple",
+    "regex": ["co[iy]haique"],
+    "data":{
+      "province": "Coyhaique",
+      "region": "Aysén"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Lago Verde",
+    "regex_type": "simple",
+    "regex": ["lago.?verde"],
+    "data":{
+      "province": "Coyhaique",
+      "region": "Aysén"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Aysén",
+    "regex_type": "simple",
+    "regex": ["a[yi]s[eé]n"],
+    "data":{
+      "province": "Aysén",
+      "region": "Aysén"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Cisnes",
+    "regex_type": "simple",
+    "regex": ["cisnes"],
+    "data":{
+      "province": "Aysén",
+      "region": "Aysén"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Guaitecas",
+    "regex_type": "simple",
+    "regex": ["guaitecas"],
+    "data":{
+      "province": "Aysén",
+      "region": "Aysén"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Cochrane",
+    "regex_type": "simple",
+    "regex": ["cochrane"],
+    "data":{
+      "province": "Capitán Prat",
+      "region": "Aysén"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "O'Higgins",
+    "regex_type": "complex",
+    "regex": {
+      "level1": ["o.?higgins"],
+      "level2": [
+        {
+          "type": "reject",
+          "regex": ["bernardo", "universidad"]
+        }
+      ]
+    },
+    "data":{
+      "province": "Capitán Prat",
+      "region": "Aysén"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Tortel",
+    "regex_type": "simple",
+    "regex": ["tortel"],
+    "data":{
+      "province": "Capitán Prat",
+      "region": "Aysén"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Chile Chico",
+    "regex_type": "simple",
+    "regex": ["chile.?chico"],
+    "data":{
+      "province": "General Carrera",
+      "region": "Aysén"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Río Ibáñez",
+    "regex_type": "simple",
+    "regex": ["r[ií]o.?iba[nñ]ez"],
+    "data":{
+      "province": "General Carrera",
+      "region": "Aysén"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Punta Arenas",
+    "regex_type": "simple",
+    "regex": ["punta.?arenas"],
+    "data":{
+      "province": "Magallanes",
+      "region": "Magallanes"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Laguna Blanca",
+    "regex_type": "simple",
+    "regex": ["laguna.?blanca"],
+    "data":{
+      "province": "Magallanes",
+      "region": "Magallanes"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Río Verde",
+    "regex_type": "simple",
+    "regex": ["r[ií]o.?verde"],
+    "data":{
+      "province": "Magallanes",
+      "region": "Magallanes"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Gregorio",
+    "regex_type": "simple",
+    "regex": ["san.?gregorio"],
+    "data":{
+      "province": "Magallanes",
+      "region": "Magallanes"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Cabo de Hornos",
+    "regex_type": "simple",
+    "regex": ["cabo.?de.?hornos"],
+    "data":{
+      "province": "Antártica",
+      "region": "Magallanes"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Antártica",
+    "regex_type": "simple",
+    "regex": ["ant[aá]rtica"],
+    "data":{
+      "province": "Antártica",
+      "region": "Magallanes"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Porvenir",
+    "regex_type": "simple",
+    "regex": ["porvenir"],
+    "data":{
+      "province": "Tierra del Fuego",
+      "region": "Magallanes"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Primavera",
+    "regex_type": "simple",
+    "regex": ["primavera"],
+    "data":{
+      "province": "Tierra del Fuego",
+      "region": "Magallanes"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Timaukel",
+    "regex_type": "simple",
+    "regex": ["timaukel"],
+    "data":{
+      "province": "Tierra del Fuego",
+      "region": "Magallanes"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Natales",
+    "regex_type": "simple",
+    "regex": ["natales"],
+    "data":{
+      "province": "Última Esperanza",
+      "region": "Magallanes"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Torres del Paine",
+    "regex_type": "simple",
+    "regex": ["torres.?del.?paine"],
+    "data":{
+      "province": "Última Esperanza",
+      "region": "Magallanes"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Santiago",
+    "regex_type": "simple",
+    "regex": ["santiago"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Cerrillos",
+    "regex_type": "simple",
+    "regex": ["cerrillos"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Cerro Navia",
+    "regex_type": "simple",
+    "regex": ["cerro.?navia"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Conchalí",
+    "regex_type": "simple",
+    "regex": ["conchal[ií]"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "El Bosque",
+    "regex_type": "simple",
+    "regex": ["el.?bosque"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Estación Central",
+    "regex_type": "simple",
+    "regex": ["estaci[oó]n.?central"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Huechuraba",
+    "regex_type": "simple",
+    "regex": ["huechuraba"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Independencia",
+    "regex_type": "simple",
+    "regex": ["independencia"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "La Cisterna",
+    "regex_type": "simple",
+    "regex": ["la.?cisterna"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "La Florida",
+    "regex_type": "simple",
+    "regex": ["la.?florida"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "La Granja",
+    "regex_type": "simple",
+    "regex": ["la.?granja"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "La Pintana",
+    "regex_type": "simple",
+    "regex": ["la.?pintana"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "La Reina",
+    "regex_type": "simple",
+    "regex": ["la.?reina"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Las Condes",
+    "regex_type": "simple",
+    "regex": ["las.?condes"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Lo Barnechea",
+    "regex_type": "simple",
+    "regex": ["lo.?barnechea"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Lo Espejo",
+    "regex_type": "simple",
+    "regex": ["lo.?espejo"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Lo Prado",
+    "regex_type": "simple",
+    "regex": ["lo.?prado"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Macul",
+    "regex_type": "simple",
+    "regex": ["macul"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Maipú",
+    "regex_type": "simple",
+    "regex": ["maip[úu]"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Ñuñoa",
+    "regex_type": "simple",
+    "regex": ["[nñ]u[nñ]oa"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Pedro Aguirre Cerda",
+    "regex_type": "simple",
+    "regex": ["pedro.?aguirre.?cerda"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Peñalolén",
+    "regex_type": "simple",
+    "regex": ["pe[ñn]alol[eé]n"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Providencia",
+    "regex_type": "simple",
+    "regex": ["providencia"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Pudahuel",
+    "regex_type": "simple",
+    "regex": ["pudahuel"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Quilicura",
+    "regex_type": "simple",
+    "regex": ["quilicura"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Quinta Normal",
+    "regex_type": "simple",
+    "regex": ["quinta.?normal"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Recoleta",
+    "regex_type": "simple",
+    "regex": ["recoleta"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Renca",
+    "regex_type": "simple",
+    "regex": ["renca"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Joaquín",
+    "regex_type": "simple",
+    "regex": ["san.?joaqu[ií]n"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Miguel",
+    "regex_type": "simple",
+    "regex": ["san.?miguel"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Ramón",
+    "regex_type": "simple",
+    "regex": ["san.?ram[oó]n"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Vitacura",
+    "regex_type": "simple",
+    "regex": ["vitacura"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Puente Alto",
+    "regex_type": "simple",
+    "regex": ["puente.?alto"],
+    "data":{
+      "province": "Cordillera",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Pirque",
+    "regex_type": "simple",
+    "regex": ["pirque"],
+    "data":{
+      "province": "Cordillera",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San José de Maipo",
+    "regex_type": "simple",
+    "regex": ["san.?jos[eé].?de.?maipo"],
+    "data":{
+      "province": "Cordillera",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Colina",
+    "regex_type": "simple",
+    "regex": ["colina"],
+    "data":{
+      "province": "Chacabuco",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Lampa",
+    "regex_type": "simple",
+    "regex": ["lampa"],
+    "data":{
+      "province": "Chacabuco",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Tiltil",
+    "regex_type": "simple",
+    "regex": ["til.?til"],
+    "data":{
+      "province": "Chacabuco",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Bernardo",
+    "regex_type": "simple",
+    "regex": ["san.?bernardo"],
+    "data":{
+      "province": "Maipo",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Buin",
+    "regex_type": "simple",
+    "regex": ["buin"],
+    "data":{
+      "province": "Maipo",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Calera de Tango",
+    "regex_type": "simple",
+    "regex": ["calera.?de.?tango"],
+    "data":{
+      "province": "Maipo",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Paine",
+    "regex_type": "simple",
+    "regex": ["paine"],
+    "data":{
+      "province": "Maipo",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Melipilla",
+    "regex_type": "simple",
+    "regex": ["melipilla"],
+    "data":{
+      "province": "Melipilla",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Alhué",
+    "regex_type": "simple",
+    "regex": ["alhu[eé]"],
+    "data":{
+      "province": "Melipilla",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Curacaví",
+    "regex_type": "simple",
+    "regex": ["curacav[íi]"],
+    "data":{
+      "province": "Melipilla",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "María Pinto",
+    "regex_type": "simple",
+    "regex": ["mar[ií]a.?pinto"],
+    "data":{
+      "province": "Melipilla",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "San Pedro",
+    "regex_type": "simple",
+    "regex": ["san.?pedro"],
+    "data":{
+      "province": "Melipilla",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Talagante",
+    "regex_type": "simple",
+    "regex": ["talagante"],
+    "data":{
+      "province": "Talagante",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "El Monte",
+    "regex_type": "simple",
+    "regex": ["el.?monte"],
+    "data":{
+      "province": "Talagante",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Isla de Maipo",
+    "regex_type": "simple",
+    "regex": ["isla.?de.?maipo"],
+    "data":{
+      "province": "Talagante",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Padre Hurtado",
+    "regex_type": "simple",
+    "regex": ["padre.?hurtado"],
+    "data":{
+      "province": "Talagante",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Peñaflor",
+    "regex_type": "simple",
+    "regex": ["pe[nñ]aflor"],
+    "data":{
+      "province": "Talagante",
+      "region": "Metropolitana"
+    }
+  }
+]
