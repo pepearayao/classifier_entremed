@@ -8,7 +8,7 @@
   },
   {
     "type": "specialty",
-    "name": "Tens",
+    "name": "TENS",
     "regex_type": "complex",
     "regex": {
       "simple_match": ["tens?"],
@@ -39,7 +39,6 @@
     "name": "Asistente Dental",
     "regex_type": "complex",
     "regex": {
-      "simple_match": {},
       "level1": ["t[eé]cnic","t[eé]c.?","tec","asistente.?"],
       "level2": {
         "type": "match",
@@ -66,7 +65,13 @@
     "type": "specialty",
     "name": "Paramédico",
     "regex_type": "complex",
-    "regex": ["param[eé]dic.?"],
+    "regex": {
+      "level1": ["t[eé]cnic","t[eé]c.?","tec","paramedico","param[eé]dic."],
+      "level2": {
+        "type": "match",
+        "regex": ["emergencia","rescate","ambulancia","param[eé]dic.?"]
+      }
+    },
     "data": {}
   },
   {
