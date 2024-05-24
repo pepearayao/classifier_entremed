@@ -21,7 +21,7 @@ def find_all_matches(target_classes:list, source_data:list):
                 if target_class_item['regex'].get('simple_match'):
                     if multiple_patterns_match(target_class_item['regex']['simple_match'], raw_data_item):
                         normalized_classes.append(target_class_item['name'])
-                if multiple_patterns_match(target_class_item['regex']['level1']):
+                if multiple_patterns_match(target_class_item['regex']['level1'], raw_data_item):
                     if target_class_item['regex']['level2']['type'] == 'match':
                         if multiple_patterns_match(target_class_item['regex']['level2']['regex'], raw_data_item):
                             normalized_classes.append(target_class_item['name'])

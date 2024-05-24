@@ -30,7 +30,7 @@ def raw_data():
     ]
 
     df_raw = pd.read_csv(os.path.join(data_path,'final_labeled_data.csv'))[raw_columns]
-    return df_raw.to_dict()
+    return df_raw.replace({pd.NA: None,'nan': None}).to_dict()
 
 @pytest.fixture(scope='session')
 def labeled_data():
@@ -60,7 +60,7 @@ def labeled_data():
         'labeled_certificates': 'certificates',
         'labeled_emails': 'emails'
     })
-    return df_labeled.to_dict()
+    return df_labeled.replace({pd.NA: None,'nan': None}).to_dict()
 
 @pytest.fixture(scope='session')
 def specialties():

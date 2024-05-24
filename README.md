@@ -11,6 +11,11 @@ No other way.
 
 ## Logs
 
+### 24.5.24
+
+1. Finished developing the data structure of the JSON config files.
+2. Finished setting the structure for the Test cases.
+
 ### 10.5.24
 
 1. Creation of initial tests and their respective fixtures.

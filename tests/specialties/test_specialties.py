@@ -1,1 +1,1 @@
-from normalizer.match.global_matchers import simple_regex_search, multiple_patterns_match
+from normalizer.match.specialties import find_specialty
