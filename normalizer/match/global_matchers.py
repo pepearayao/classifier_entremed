@@ -28,7 +28,6 @@ def find_all_matches(target_classes:list, source_data:list):
                     if target_class_item['regex']['level2']['type'] == 'reject':
                         if not multiple_patterns_match(target_class_item['regex']['level2']['regex'], raw_data_item):
                             normalized_classes.append(target_class_item['name'])
-
     return normalized_classes
 
 def find_first_match(target_classes:dict, source_data:list):
