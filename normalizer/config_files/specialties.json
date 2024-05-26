@@ -11,7 +11,7 @@
     "name": "TENS",
     "regex_type": "complex",
     "regex": {
-      "simple_match": ["tens?"],
+      "simple_match": ["tens"],
       "level1": ["t[eé]cnic","t[eé]c.?","tec"],
       "level2": {
         "type": "match",
@@ -92,7 +92,7 @@
     "type": "specialty",
     "name": "Fonoaudiología",
     "regex_type": "simple",
-    "regex": ["fonoaudiolog.?","audioprotesist."],
+    "regex": ["fonoaudi[oó]log.?","audioprotesist."],
     "data": {}
   },
   {

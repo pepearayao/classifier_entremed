@@ -4,5 +4,8 @@ reinstall_package:
 	@pip install -e .
 
 
-check_all:
+all_test:
 	@pytest -v
+
+data_type_test:
+	@pytest -v tests/jobs_basics -k 'data_type'
