@@ -47,17 +47,17 @@ def raw_data():
 @pytest.fixture(scope='module')
 def labeled_data():
     labeled_columns = [
-    'labeled_specialty',
-    'labeled_comuna',
-    'labeled_region',
-    'labeled_job_schedule_type',
-    'labeled_job_shift_type',
-    'labeled_job_engagement_type',
-    'labeled_job_engagement_duration',
-    'labeled_company',
-    'labeled_inclusive_offer',
-    'labeled_certificates',
-    'labeled_emails'
+    'labeled_specialty',        # 0
+    'labeled_comuna',           # 1
+    'labeled_region',           # 2
+    'labeled_job_schedule_type',    # 3
+    'labeled_job_shift_type',    # 4
+    'labeled_job_engagement_type',  # 5
+    'labeled_job_engagement_duration',  # 6
+    'labeled_company',          # 7
+    'labeled_inclusive_offer',  # 8
+    'labeled_certificates',     # 9
+    'labeled_emails'            # 10
     ]
     df_labeled = pd.read_csv(os.path.join(data_path,'labeled_jobs.csv'), converters=converters)[labeled_columns]
     yield [tuple(x[1].replace({pd.NA: None,'nan': None})) for x in df_labeled.iterrows()]
