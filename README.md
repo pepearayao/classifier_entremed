@@ -14,6 +14,7 @@ No other way.
 ### 3.6.24
 1. Finished developing Location and Specialty matchers with JSON config files.
 2. Test cases running with 20 different labeled data done by me.
+3. Documented all the functions developed until now.
 3. Next comes classifing Job types and certificates.
 
 ### 24.5.24
