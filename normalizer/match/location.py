@@ -11,17 +11,38 @@ class LocationMatcher(GlobalMatcher):
         title:str = None,
         description:str = None,
         pills:str = None,
-        posting_link:str = None):
+        posting_link:str = None) -> dict:
+        '''
+        A method that finds the location of a job. It uses the comunes.json and conflicting_comunes.json files to find the matches.
 
+        Args:
+            geolocation (str): The geolocation of the job as found on the job posting.
+            title (str): The title of the job as found on the job posting.
+            description (str): The description of the job as found on the job posting.
+            pills (str): The pills of the job as found on the job posting.
+            posting_link (str): The posting link of the job as found on the job posting.
+
+        Returns:
+            dict: A dictionary with the comunes, provinces and regions found in the job posting.
+        '''
+
+        # Get the non empty source data. If some data is empty, it will be filtered out.
         target_data = self.get_non_empty_source_data(
             [title, geolocation, description, pills, posting_link]
             )
 
+        # Load the comunes.json file
         locations = load_config_file('comunes')
         location_detected = self.find_all_matches(locations, target_data)
+
+        # Get the comunes, provinces and regions found in the job posting.
         comunes = [loc['item'] for loc in location_detected]
         provinces = [loc['payload']['province'] for loc in location_detected]
         regions = [loc['payload']['region'] for loc in location_detected]
+
+        # If no comunes, provinces or regions are found, load the conflicting_comunes.json file.
+        # This file contains comunes that are not in the comunes.json file and might conflict when matching.
+        # It containes mostly comunes with the similar name as other comunes or same names as provinces or regions.
         if not comunes and not provinces and not regions:
             locations = load_config_file('conflicting_comunes')
             location_detected = self.find_all_matches(locations, target_data)
@@ -29,9 +50,12 @@ class LocationMatcher(GlobalMatcher):
             provinces = [loc['payload']['province'] for loc in location_detected]
             regions = [loc['payload']['region'] for loc in location_detected]
 
+        # Get the unique comunes, provinces and regions found in the job posting.
         comunes_final = [key for key,times in dict(Counter(comunes)).items() if times > 0]
         provinces_final = [key for key,times in dict(Counter(provinces)).items() if times > 0]
         regions_final = [key for key,times in dict(Counter(regions)).items() if times > 0]
+
+        # Return the comunes, provinces and regions found in the job posting. As lists within a dictionary.
         return {'comunes': comunes_final, 'provinces': provinces_final, 'regions': regions_final}
 
 if __name__ == '__main__':
