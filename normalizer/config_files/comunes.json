@@ -1,24 +1,6 @@
 [
   {
     "type": "comune",
-    "name": "Arica",
-    "regex_type": "complex",
-    "regex": {
-      "level1": ["arica"],
-      "level2": [
-        {
-          "type": "reject",
-          "regex": ["punta.?arenas"]
-        }
-      ]
-    },
-    "data": {
-      "province": "Arica",
-      "region": "Arica y Parinacota"
-    }
-  },
-  {
-    "type": "comune",
     "name": "Camarones",
     "regex_type": "simple",
     "regex": ["camarones"],
@@ -115,16 +97,6 @@
     "data": {
       "province": "Tamarugal",
       "region": "Tarapacá"
-    }
-  },
-  {
-    "type": "comune",
-    "name": "Antofagasta",
-    "regex_type": "simple",
-    "regex": ["antofagasta"],
-    "data": {
-      "province": "Antofagasta",
-      "region": "Antofagasta"
     }
   },
   {
@@ -302,16 +274,6 @@
     "name": "La Serena",
     "regex_type": "simple",
     "regex": ["la.?serena"],
-    "data": {
-      "province": "Elqui",
-      "region": "Coquimbo"
-    }
-  },
-  {
-    "type": "comune",
-    "name": "Coquimbo",
-    "regex_type": "simple",
-    "regex": ["coquimbo"],
     "data": {
       "province": "Elqui",
       "region": "Coquimbo"
@@ -511,7 +473,7 @@
     "type": "comune",
     "name": "Concón",
     "regex_type": "simple",
-    "regex": ["con.?c[oó]n"],
+    "regex": ["\bcon.?c[oó]n\b"],
     "data": {
       "province": "Valparaíso",
       "region": "Valparaíso"
@@ -551,7 +513,7 @@
     "type": "comune",
     "name": "Viña del Mar",
     "regex_type": "simple",
-    "regex": ["vi[nñ]a.?del.?mar"],
+    "regex": ["vi[nñ]a.?del.?mar","re[nñ]aca"],
     "data": {
       "province": "Valparaíso",
       "region": "Valparaíso"
@@ -1207,16 +1169,6 @@
   },
   {
     "type": "comune",
-    "name": "Maule",
-    "regex_type": "simple",
-    "regex": ["maule"],
-    "data": {
-      "province": "Talca",
-      "region": "Maule"
-    }
-  },
-  {
-    "type": "comune",
     "name": "Pelarco",
     "regex_type": "simple",
     "regex": ["pelarco"],
@@ -1369,7 +1321,7 @@
     "type": "comune",
     "name": "Teno",
     "regex_type": "simple",
-    "regex": ["teno"],
+    "regex": ["\bteno\b"],
     "data": {
       "province": "Curicó",
       "region": "Maule"
@@ -1707,16 +1659,6 @@
   },
   {
     "type": "comune",
-    "name": "Florida",
-    "regex_type": "simple",
-    "regex": ["florida"],
-    "data": {
-      "province": "Concepción",
-      "region": "Biobío"
-    }
-  },
-  {
-    "type": "comune",
     "name": "Hualqui",
     "regex_type": "simple",
     "regex": ["hualqui"],
@@ -1729,7 +1671,7 @@
     "type": "comune",
     "name": "Lota",
     "regex_type": "simple",
-    "regex": ["lota"],
+    "regex": ["\blota\b"],
     "data": {
       "province": "Concepción",
       "region": "Biobío"
@@ -2319,7 +2261,7 @@
     "type": "comune",
     "name": "Lanco",
     "regex_type": "simple",
-    "regex": ["lanco"],
+    "regex": ["\blanco\b"],
     "data":{
       "province": "Valdivia",
       "region": "Los Ríos"
@@ -2777,24 +2719,6 @@
   },
   {
     "type": "comune",
-    "name": "O'Higgins",
-    "regex_type": "complex",
-    "regex": {
-      "level1": ["o.?higgins"],
-      "level2": [
-        {
-          "type": "reject",
-          "regex": ["bernardo", "universidad"]
-        }
-      ]
-    },
-    "data":{
-      "province": "Capitán Prat",
-      "region": "Aysén"
-    }
-  },
-  {
-    "type": "comune",
     "name": "Tortel",
     "regex_type": "simple",
     "regex": ["tortel"],
@@ -2826,8 +2750,16 @@
   {
     "type": "comune",
     "name": "Punta Arenas",
-    "regex_type": "simple",
-    "regex": ["punta.?arenas"],
+    "regex_type": "complex",
+    "regex":{
+      "level1": ["punta.?arenas"],
+      "level2": [
+        {
+          "type":"reject",
+          "regex": ["arica"]
+        }
+      ]
+    },
     "data":{
       "province": "Magallanes",
       "region": "Magallanes"
@@ -2931,26 +2863,6 @@
     "data":{
       "province": "Última Esperanza",
       "region": "Magallanes"
-    }
-  },
-  {
-    "type": "comune",
-    "name": "Santiago",
-    "regex_type": "simple",
-    "regex": ["santiago"],
-    "data":{
-      "province": "Santiago",
-      "region": "Metropolitana"
-    }
-  },
-  {
-    "type": "comune",
-    "name": "Cerrillos",
-    "regex_type": "simple",
-    "regex": ["cerrillos"],
-    "data":{
-      "province": "Santiago",
-      "region": "Metropolitana"
     }
   },
   {

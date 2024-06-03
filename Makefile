@@ -5,7 +5,7 @@ reinstall_package:
 
 
 all_test:
-	@pytest -v
+	@pytest -vv
 
 data_type_test:
 	@pytest -v tests/jobs_basics -k 'data_type'
