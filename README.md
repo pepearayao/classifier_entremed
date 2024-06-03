@@ -11,6 +11,11 @@ No other way.
 
 ## Logs
 
+### 3.6.24
+1. Finished developing Location and Specialty matchers with JSON config files.
+2. Test cases running with 20 different labeled data done by me.
+3. Next comes classifing Job types and certificates.
+
 ### 24.5.24
 
 1. Finished developing the data structure of the JSON config files.
