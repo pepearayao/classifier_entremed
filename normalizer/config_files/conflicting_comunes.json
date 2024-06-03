@@ -1,0 +1,88 @@
+[
+  {
+    "type": "comune",
+    "name": "Arica",
+    "regex_type": "complex",
+    "regex": {
+      "level1": ["arica"],
+      "level2": [
+        {
+          "type": "reject",
+          "regex": ["punta.?arenas"]
+        }
+      ]
+    },
+    "data": {
+      "province": "Arica",
+      "region": "Arica y Parinacota"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Antofagasta",
+    "regex_type": "simple",
+    "regex": ["antofagasta"],
+    "data": {
+      "province": "Antofagasta",
+      "region": "Antofagasta"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Coquimbo",
+    "regex_type": "simple",
+    "regex": ["coquimbo"],
+    "data": {
+      "province": "Elqui",
+      "region": "Coquimbo"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Maule",
+    "regex_type": "simple",
+    "regex": ["maule"],
+    "data": {
+      "province": "Talca",
+      "region": "Maule"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Cerrillos",
+    "regex_type": "simple",
+    "regex": ["cerrillos"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "O'Higgins",
+    "regex_type": "complex",
+    "regex": {
+      "level1": ["o.?higgins"],
+      "level2": [
+        {
+          "type": "reject",
+          "regex": ["bernardo", "universidad"]
+        }
+      ]
+    },
+    "data":{
+      "province": "Capitán Prat",
+      "region": "Aysén"
+    }
+  },
+  {
+    "type": "comune",
+    "name": "Santiago",
+    "regex_type": "simple",
+    "regex": ["santiago"],
+    "data":{
+      "province": "Santiago",
+      "region": "Metropolitana"
+    }
+  }
+]

@@ -13,10 +13,10 @@
     "regex": {
       "simple_match": ["tens"],
       "level1": ["t[eé]cnic","t[eé]c.?","tec"],
-      "level2": {
+      "level2": [{
         "type": "match",
         "regex": ["enfermer.?"]
-      }
+      }]
     },
     "data": {}
   },
@@ -40,10 +40,10 @@
     "regex_type": "complex",
     "regex": {
       "level1": ["t[eé]cnic","t[eé]c.?","tec","asistente.?"],
-      "level2": {
+      "level2": [{
         "type": "match",
         "regex": ["dental"]
-      }
+      }]
     },
     "data": {}
   },
@@ -54,10 +54,10 @@
     "regex": {
       "simple_match": ["tecn[oó]]log.?","\btm\b"],
       "level1": ["t[eé]cnic","t[eé]c.?","tec"],
-      "level2": {
+      "level2": [{
         "type": "match",
         "regex": ["imagenolog[ií]a","im.gen.?","im[aá]genes"]
-      }
+      }]
     },
     "data": {}
   },
@@ -67,10 +67,10 @@
     "regex_type": "complex",
     "regex": {
       "level1": ["t[eé]cnic","t[eé]c.?","tec","paramedico","param[eé]dic."],
-      "level2": {
+      "level2": [{
         "type": "match",
         "regex": ["emergencia","rescate","ambulancia","param[eé]dic.?"]
-      }
+      }]
     },
     "data": {}
   },
