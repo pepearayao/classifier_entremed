@@ -17,7 +17,8 @@ def test_job_inclusive_offer_data_type(raw_data):
         pills
     ])
 
-    assert type(result) == bool
+    assert type(result) == dict
+    assert type(result['job_inclusive_offer']) == bool
 
 @pytest.mark.parametrize('data', data_for_param_tests(), ids=lambda x: x[0][18])
 def test_job_inclusive_offer_result(data):

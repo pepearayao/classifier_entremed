@@ -1,0 +1,23 @@
+[
+  {
+    "type": "job_schedule",
+    "name": "Part-Time",
+    "regex_type": "simple",
+    "regex": ["part.time"],
+    "data": {}
+  },
+  {
+    "type": "job_schedule",
+    "name": "Full-Time",
+    "regex_type": "simple",
+    "regex": ["full.time","jornada.completa"],
+    "data": {}
+  },
+  {
+    "type": "job_schedule",
+    "name": "Hours",
+    "regex_type": "simple",
+    "regex": [" hora."],
+    "data": {}
+  }
+]

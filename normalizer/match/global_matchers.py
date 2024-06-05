@@ -41,6 +41,19 @@ class GlobalMatcher:
         '''
         return re.findall(r"|".join(patterns),in_string, re.IGNORECASE)
 
+    def get_final_elements(self, matches:list) -> list[str]:
+        '''
+        A function that returns the unique elements in a list
+
+        Args:
+            matches (list): A list of strings
+        Returns:
+            list: A list with the unique elements
+        '''
+
+        # Get all the elements found in the matches list
+        return [key for key,times in dict(Counter(matches)).items() if times > 0]
+
     def find_all_matches(self, target_classes:list, source_data:list) -> list[dict]:
         '''
         A function that finds all the matches in the source data and returns a list of dictionaries with the matched item and any payload it might have.

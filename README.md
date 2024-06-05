@@ -11,6 +11,10 @@ No other way.
 
 ## Logs
 
+### 5.6.24
+1. Done Job Schedule classifier and added JSON for matching.
+2. Added methods in Global matcher to get unique and final elements in a finding.
+
 ### 3.6.24
 1. Finished developing Location and Specialty matchers with JSON config files.
 2. Test cases running with 20 different labeled data done by me.

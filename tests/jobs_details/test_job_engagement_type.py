@@ -18,7 +18,8 @@ def test_job_engagement_data_type(raw_data):
         pills
     ])
 
-    assert type(results) == list
+    assert type(results) == dict
+    assert type(results['job_engagement_type']) == list
 
 @pytest.mark.parametrize('data', data_for_param_tests(), ids=lambda x: x[0][18])
 def test_job_engagement_result(data):
