@@ -92,5 +92,7 @@ class GlobalMatcher:
                             if final_pattern['type'] == 'reject':
                                 if not self.multiple_patterns_match(final_pattern['regex'], raw_data_item):
                                     normalized_classes.append({'item': target_class_item['name'], 'payload': target_class_item['data']})
+                                else:
+                                    break
 
         return normalized_classes

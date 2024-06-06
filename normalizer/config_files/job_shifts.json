@@ -1,0 +1,36 @@
+[
+  {
+    "type": "job_shift",
+    "name": "Cuarto Turno",
+    "regex_type": "complex",
+    "regex": {
+      "level1": ["4o","4º","4-to","4to","cuarto","\b4\b"],
+      "level2": [
+        {
+          "type": "reject",
+          "regex": ["modificado","4TM"]
+        },
+        {
+          "type": "match",
+          "regex": ["turno.","jornada.extraordinaria"]
+        }
+      ]
+    },
+    "data": {}
+  },
+  {
+    "type": "job_shift",
+    "name": "Rotativo",
+    "regex_type": "complex",
+    "regex": {
+      "level1": ["turno.","jornada.extraordinaria"],
+      "level2": [
+        {
+          "type": "match",
+          "regex": ["rotativo"]
+        }
+      ]
+    },
+    "data": {}
+  }
+]

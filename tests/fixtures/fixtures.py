@@ -41,7 +41,7 @@ def raw_data():
     'inclusive_posting' # 17
     ]
 
-    df_raw = pd.read_csv(os.path.join(data_path,'labeled_jobs.csv'))[raw_columns]
+    df_raw = pd.read_csv(os.path.join(data_path,'labeled_jobs.csv'))[raw_columns].replace({pd.NA: None})
     yield [tuple(x[1].replace({pd.NA: None,'nan': None})) for x in df_raw.iterrows()]
 
 @pytest.fixture(scope='module')

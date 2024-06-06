@@ -51,9 +51,9 @@ class LocationMatcher(GlobalMatcher):
             regions = [loc['payload']['region'] for loc in location_detected]
 
         # Get the unique comunes, provinces and regions found in the job posting.
-        comunes_final = [key for key,times in dict(Counter(comunes)).items() if times > 0]
-        provinces_final = [key for key,times in dict(Counter(provinces)).items() if times > 0]
-        regions_final = [key for key,times in dict(Counter(regions)).items() if times > 0]
+        comunes_final = self.get_final_elements(comunes)
+        provinces_final = self.get_final_elements(provinces)
+        regions_final = self.get_final_elements(regions)
 
         # Return the comunes, provinces and regions found in the job posting. As lists within a dictionary.
         return {'comunes': comunes_final, 'provinces': provinces_final, 'regions': regions_final}

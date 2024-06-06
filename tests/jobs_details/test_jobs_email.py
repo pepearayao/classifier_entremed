@@ -9,13 +9,13 @@ def test_job_emails_data_type(raw_data):
     requisites = raw_data[0][15]
     pills = raw_data[0][16]
 
-    result = Matcher().get_job_emails([
+    result = Matcher().get_job_emails(
         title,
         work_schedule,
         description,
         requisites,
         pills
-    ])
+    )
 
     assert type(result) == dict
     assert type(result['emails']) == list
@@ -24,11 +24,11 @@ def test_job_emails_data_type(raw_data):
 def test_job_emails_result(data):
     raw_data = data[0]
     labeled_data = data[1]
-    result = Matcher().get_job_emails([
+    result = Matcher().get_job_emails(
         raw_data[0],
         raw_data[7],
         raw_data[14],
         raw_data[15],
         raw_data[16]
-    ])
+    )
     assert sorted(result) == sorted(labeled_data[10])

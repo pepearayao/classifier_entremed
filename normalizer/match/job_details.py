@@ -64,6 +64,41 @@ class Matcher(GlobalMatcher):
 
         return {'job_schedule': elements}
 
+    def get_job_shift(
+        self,
+        title = None,
+        work_schedule = None,
+        description = None,
+        requisites = None,
+        pills = None) -> list[str]:
+        '''
+        A method that finds the type of shift for a job. Can be 4to Turno, 4to Turno Modificado or 4to Turno Rotativo.
+        It uses the title, work_schedule, description, requisites and pills to find the matches.
+        It uses the job_shift.json file to find the matches.
+
+        Args:
+            title (str): The title of the job as found on the job posting.
+            work_schedule (str): The work schedule of the job as found on the job posting.
+            description (str): The description of the job as found on the job posting.
+            requisites (str): The requisites of the job as found on the job posting.
+            pills (str): The pills of the job as found on the job posting.
+
+        Returns:
+            list: A list with the type of shift found in the job posting.
+        '''
+        # Get the non empty source data. If some data is empty, it will be filtered out.
+        target_data = self.get_non_empty_source_data(
+            [title, work_schedule, description, requisites, pills]
+            )
+
+        # Load the job_shift.json file
+        job_shifts = load_config_file('job_shifts')
+        job_shift_detected = self.find_all_matches(job_shifts, target_data)
+
+
+        elements = self.get_final_elements([loc['item'] for loc in job_shift_detected])
+
+        return {'job_shift': elements}
 
 
 
@@ -71,12 +106,13 @@ class Matcher(GlobalMatcher):
 if __name__ == '__main__':
     path = os.path.dirname(os.path.abspath(__file__))
     file_path = os.path.abspath(os.path.join(path, '..', '..', 'tests', 'data', 'labeled_jobs.csv'))
-    id = 928
-    item = pd.read_csv(file_path)
+    id = 2146
+    item = pd.read_csv(file_path).replace({pd.NA: None})
     title = item[item['id'] == id]['title'].item()
     work_schedule = item[item['id'] == id]['work_schedule'].item()
     description = item[item['id'] == id]['description'].item()
+    requisites = item[item['id'] == id]['requisites'].item()
     pills = item[item['id'] == id]['pills'].item()
     posting_link = item[item['id'] == id]['posting_url'].item()
 
-    print(Matcher().get_job_schedule(title, work_schedule, description, pills, posting_link))
+    print(Matcher().get_job_shift(description=description))

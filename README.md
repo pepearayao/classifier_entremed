@@ -11,6 +11,10 @@ No other way.
 
 ## Logs
 
+### 6.6.24
+1. Done Job Shift classifier and added JSON for matching.
+2. Fixed a bug with global matcher file and some tests also.
+
 ### 5.6.24
 1. Done Job Schedule classifier and added JSON for matching.
 2. Added methods in Global matcher to get unique and final elements in a finding.

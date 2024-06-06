@@ -9,13 +9,13 @@ def test_job_company_data_type(raw_data):
     requisites = raw_data[0][15]
     pills = raw_data[0][16]
 
-    result = Matcher().get_job_company([
+    result = Matcher().get_job_company(
         title,
         work_schedule,
         description,
         requisites,
         pills
-    ])
+    )
 
     assert type(result) == dict
     assert type(result['company']) == str
@@ -25,11 +25,11 @@ def test_job_company_data_type(raw_data):
 def test_job_company_result(data):
     raw_data = data[0]
     labeled_data = data[1]
-    result = Matcher().get_job_company([
+    result = Matcher().get_job_company(
         raw_data[0],
         raw_data[7],
         raw_data[14],
         raw_data[15],
         raw_data[16]
-    ])
+    )
     assert result == labeled_data[7]
