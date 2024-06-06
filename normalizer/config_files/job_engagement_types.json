@@ -1,0 +1,16 @@
+[
+  {
+    "type": "engagement_type",
+    "name": "Contrato",
+    "regex_type": "simple",
+    "regex":["contrato"],
+    "data": {}
+  },
+  {
+    "type": "engagement_type",
+    "name": "A Honorarios",
+    "regex_type": "simple",
+    "regex":["honorarios"],
+    "data": {}
+  }
+]
