@@ -3,19 +3,9 @@ from tests.fixtures.fixtures import data_for_param_tests
 import pytest
 
 def test_job_emails_data_type(raw_data):
-    title = raw_data[0][0]
-    work_schedule = raw_data[0][7]
     description = raw_data[0][14]
-    requisites = raw_data[0][15]
-    pills = raw_data[0][16]
 
-    result = Matcher().get_job_emails(
-        title,
-        work_schedule,
-        description,
-        requisites,
-        pills
-    )
+    result = Matcher(description = description).get_emails()
 
     assert type(result) == dict
     assert type(result['emails']) == list
@@ -24,11 +14,5 @@ def test_job_emails_data_type(raw_data):
 def test_job_emails_result(data):
     raw_data = data[0]
     labeled_data = data[1]
-    result = Matcher().get_job_emails(
-        raw_data[0],
-        raw_data[7],
-        raw_data[14],
-        raw_data[15],
-        raw_data[16]
-    )
-    assert sorted(result) == sorted(labeled_data[10])
+    result = Matcher(description = raw_data[14]).get_emails()
+    assert sorted(result['emails']) == sorted(labeled_data[10])

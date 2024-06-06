@@ -166,7 +166,18 @@ class Matcher(GlobalMatcher):
         # Return the name of the company Capitalized
         return {'company': self.clean_string(self.company).title()}
 
+    def get_emails(self) -> dict:
+        '''
+        A method that finds the emails in the job posting.
 
+        Returns:
+            dict: A dict with the emails found in the job posting.
+        '''
+        # Get the emails found in the job posting
+        email_pattern = r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'
+        emails = self.multiple_patterns_match([email_pattern], self.description)
+
+        return {'emails': emails}
 
 if __name__ == '__main__':
     path = os.path.dirname(os.path.abspath(__file__))
