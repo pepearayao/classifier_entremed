@@ -17,7 +17,8 @@ class Matcher(GlobalMatcher):
         description:str = None,
         requisites:str = None,
         pills:str = None,
-        posting_link:str = None
+        posting_link:str = None,
+        company:str = None
     ):
         '''
         Init method for the Matcher class. It receives the title, work_schedule, shift_type,
@@ -43,6 +44,8 @@ class Matcher(GlobalMatcher):
         self.requisites = requisites
         self.pills = pills
         self.posting_link = posting_link
+        self.company = company
+
         self.target_data = self.get_non_empty_source_data(
             [
                 self.title,
@@ -56,7 +59,7 @@ class Matcher(GlobalMatcher):
         )
 
 
-    def find_numbers_job_schedule(self, target_data):
+    def find_numbers_job_schedule(self, target_data) -> int:
         '''
         A method that finds the amount of hours requiered to work per week.
 
@@ -64,20 +67,20 @@ class Matcher(GlobalMatcher):
             elements (list): A list with the job schedule elements.
 
         Returns:
-            list: A list with the numbers found in the job schedule elements.
+            int: The integer found in the job schedule elements.
         '''
         for item in target_data:
             if re.search(r'hora.',item,re.IGNORECASE) != None:
                 return int(re.search(r'\d+', item).group())
 
-    def get_job_schedule(self) -> list[str]:
+    def get_job_schedule(self) -> dict:
         '''
         A method that finds the type of schedule for a job. Can be Part-Time or Full-Time.
         It uses the title, work_schedule, description, requisites and pills to find the matches.
         It uses the job_schedule.json file to find the matches.
 
         Returns:
-            list: A list with the type of schedule found in the job posting.
+            dict: A dict with the type of schedule found in the job posting.
         '''
         # Load the job_schedule.json file
         job_schedule = load_config_file('job_schedules')
@@ -99,14 +102,14 @@ class Matcher(GlobalMatcher):
 
         return {'job_schedule': elements}
 
-    def get_job_shift(self) -> list[str]:
+    def get_job_shift(self) -> dict:
         '''
         A method that finds the type of shift for a job. Can be 4to Turno, 4to Turno Modificado or 4to Turno Rotativo.
         It uses the title, work_schedule, description, requisites and pills to find the matches.
         It uses the job_shift.json file to find the matches.
 
         Returns:
-            list: A list with the type of shift found in the job posting.
+            dict: A dict with the type of shift found in the job posting.
         '''
         # Load the job_shift.json file
         job_shifts = load_config_file('job_shifts')
@@ -117,14 +120,14 @@ class Matcher(GlobalMatcher):
 
         return {'job_shift': elements}
 
-    def get_job_engagement_type(self) -> list[str]:
+    def get_job_engagement_type(self) -> dict:
         '''
         A method that finds the type of engagement for a job. Can be Honorario o a Contrata.
         It uses the title, work_schedule, description, requisites and pills to find the matches.
         It uses the job_engagement_type.json file to find the matches.
 
         Returns:
-            list: A list with the type of engagement found in the job posting.
+            dict: A dict with the type of engagement found in the job posting.
         '''
         # Load the job_engagement_type.json file
         job_engagement_type = load_config_file('job_engagement_types')
@@ -135,14 +138,14 @@ class Matcher(GlobalMatcher):
 
         return {'job_engagement_type': elements}
 
-    def get_job_engagement_duration(self) -> list[str]:
+    def get_job_engagement_duration(self) -> dict:
         '''
         A method that finds the duration of the engagement for a job. Can be Indefinido o Temporal.
         It uses the title, work_schedule, description, requisites and pills to find the matches.
         It uses the job_engagement_duration.json file to find the matches.
 
         Returns:
-            list: A list with the duration of the engagement found in the job posting.
+            dict: A dict with the duration of the engagement found in the job posting.
         '''
         # Load the job_engagement_duration.json file
         job_engagement_duration = load_config_file('job_engagement_duration')
@@ -152,6 +155,17 @@ class Matcher(GlobalMatcher):
         elements = self.get_final_elements([loc['item'] for loc in job_engagement_duration_detected])
 
         return {'job_engagement_duration': elements}
+
+    def get_company(self) -> dict:
+        '''
+        A method that finds the company name in the job posting.
+
+        Returns:
+            dict: A dict with the company name in the key 'company'.
+        '''
+        # Return the name of the company Capitalized
+        return {'company': self.clean_string(self.company).title()}
+
 
 
 if __name__ == '__main__':
@@ -167,6 +181,7 @@ if __name__ == '__main__':
     pills = item[item['id'] == id]['pills'].item()
     shift_type = item[item['id'] == id]['shift_type'].item()
     posting_link = item[item['id'] == id]['posting_url'].item()
+    company = item[item['id'] == id]['company'].item()
 
     matcher_obj = Matcher(
         title = title,
@@ -176,7 +191,8 @@ if __name__ == '__main__':
         description = description,
         requisites = requisites,
         pills = pills,
-        posting_link = posting_link
+        posting_link = posting_link,
+        company = company
     )
 
-    print(matcher_obj.get_job_schedule())
+    print(matcher_obj.get_company())

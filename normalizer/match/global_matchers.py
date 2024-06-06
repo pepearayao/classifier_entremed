@@ -2,6 +2,14 @@ import re
 from collections import Counter
 
 class GlobalMatcher:
+
+    def clean_string(self, string:str) -> str:
+        string = string.replace('\n', ' ')
+        string = string.replace('\r', ' ')
+        string = string.replace('\t', ' ')
+        special_char_reg = '([a-zA-Z0-9]+)' + '[!"#$%&\'()*+,-./:;<=>?@\\^_`{|}~]' + '([a-zA-Z0-9]+)'
+        return re.sub(special_char_reg, ' ', string)
+
     def get_non_empty_source_data(self, source_data:list) -> list[str]:
         '''
         Just a simple function to filter out empty strings from the source data

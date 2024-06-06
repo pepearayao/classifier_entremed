@@ -12,7 +12,7 @@ No other way.
 ## Logs
 
 ### 7.6.24
-- [ ] Do Company Identifier
+- [X] Do Company Identifier
 - [ ] Do Certificate Classifer
 - [ ] Do Email identification
 - [ ] Do Job Accesibility
