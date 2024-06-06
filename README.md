@@ -13,8 +13,8 @@ No other way.
 
 ### 7.6.24
 - [X] Do Company Identifier
-- [X] Do Certificate Classifer
-- [ ] Do Email identification
+- [ ] Do Certificate Classifer
+- [X] Do Email identification
 - [ ] Do Job Accesibility
 - [ ] Do Salary Cleaner
 
