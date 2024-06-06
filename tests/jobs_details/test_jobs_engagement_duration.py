@@ -5,17 +5,23 @@ import pytest
 def test_job_engagement_duration_data_type(raw_data):
     title = raw_data[0][0]
     work_schedule = raw_data[0][7]
+    shift_type = raw_data[0][8]
+    employment_type = raw_data[0][9]
     description = raw_data[0][14]
     requisites = raw_data[0][15]
     pills = raw_data[0][16]
 
-    results = Matcher().get_job_engagement_duration_type(
-        title,
-        work_schedule,
-        description,
-        requisites,
-        pills
+
+    matcher_obj = Matcher(
+        title = title,
+        work_schedule = work_schedule,
+        shift_type = shift_type,
+        employment_type = employment_type,
+        description = description,
+        requisites = requisites,
+        pills = pills
     )
+    results = matcher_obj.get_job_engagement_duration()
 
     assert type(results) == dict
     assert type(results['job_engagement_duration']) == list
@@ -24,11 +30,15 @@ def test_job_engagement_duration_data_type(raw_data):
 def test_job_engagement_duration_result(data):
     raw_data = data[0]
     labeled_data = data[1]
-    result = Matcher().get_job_engagement_duration_type(
-        raw_data[0],
-        raw_data[7],
-        raw_data[14],
-        raw_data[15],
-        raw_data[16]
+    matcher_obj = Matcher(
+        title = raw_data[0],
+        work_schedule = raw_data[7],
+        shift_type = raw_data[8],
+        employment_type = raw_data[9],
+        description = raw_data[14],
+        requisites = raw_data[15],
+        pills = raw_data[16]
     )
-    assert sorted(result) == sorted(labeled_data[6])
+
+    results = matcher_obj.get_job_engagement_duration()
+    assert sorted(results['job_engagement_duration']) == sorted(labeled_data[6])

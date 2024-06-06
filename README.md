@@ -11,11 +11,15 @@ No other way.
 
 ## Logs
 
+- [ ] Hola Test
+- [X] Hola Test Done
+
 ### 6.6.24
 1. Done Job Shift classifier and added JSON for matching.
 2. Fixed a bug with global matcher file and some tests also.
 3. Done Job Engagement type and added corresponding JSON matching file
 4. Fixed way that Pandas file is read to remove nan and NaN data types.
+5. Done Job Engagement Duration.
 
 ### 5.6.24
 1. Done Job Schedule classifier and added JSON for matching.

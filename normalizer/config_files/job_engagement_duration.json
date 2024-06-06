@@ -1,0 +1,16 @@
+[
+  {
+    "type": "engagement_duration",
+    "name": "Indefinido",
+    "regex_type": "simple",
+    "regex": ["indefinido","planta"],
+    "data": {}
+  },
+  {
+    "type": "engagement_duration",
+    "name": "Plazo Fijo",
+    "regex_type": "simple",
+    "regex": ["\bcontrata\b","reemplazo","\blicencia\b","temporada","plazo fijo"],
+    "data": {}
+  }
+]
