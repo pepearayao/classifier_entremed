@@ -11,8 +11,12 @@ No other way.
 
 ## Logs
 
-- [ ] Hola Test
-- [X] Hola Test Done
+### 7.6.24
+- [ ] Do Company Identifier
+- [ ] Do Certificate Classifer
+- [ ] Do Email identification
+- [ ] Do Job Accesibility
+- [ ] Do Salary Cleaner
 
 ### 6.6.24
 1. Done Job Shift classifier and added JSON for matching.
