@@ -473,7 +473,7 @@
     "type": "comune",
     "name": "Concón",
     "regex_type": "simple",
-    "regex": ["\bcon.?c[oó]n\b"],
+    "regex": ["\\bcon.?c[oó]n\\b"],
     "data": {
       "province": "Valparaíso",
       "region": "Valparaíso"
@@ -1321,7 +1321,7 @@
     "type": "comune",
     "name": "Teno",
     "regex_type": "simple",
-    "regex": ["\bteno\b"],
+    "regex": ["\\bteno\\b"],
     "data": {
       "province": "Curicó",
       "region": "Maule"
@@ -1671,7 +1671,7 @@
     "type": "comune",
     "name": "Lota",
     "regex_type": "simple",
-    "regex": ["\blota\b"],
+    "regex": ["\\blota\\b"],
     "data": {
       "province": "Concepción",
       "region": "Biobío"
@@ -2261,7 +2261,7 @@
     "type": "comune",
     "name": "Lanco",
     "regex_type": "simple",
-    "regex": ["\blanco\b"],
+    "regex": ["\\blanco\\b"],
     "data":{
       "province": "Valdivia",
       "region": "Los Ríos"

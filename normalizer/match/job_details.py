@@ -18,7 +18,8 @@ class Matcher(GlobalMatcher):
         requisites:str = None,
         pills:str = None,
         posting_link:str = None,
-        company:str = None
+        company:str = None,
+        inclusive:bool = False
     ):
         '''
         Init method for the Matcher class. It receives the title, work_schedule, shift_type,
@@ -45,6 +46,7 @@ class Matcher(GlobalMatcher):
         self.pills = pills
         self.posting_link = posting_link
         self.company = company
+        self.inclusive = inclusive
 
         self.target_data = self.get_non_empty_source_data(
             [
@@ -166,6 +168,21 @@ class Matcher(GlobalMatcher):
         # Return the name of the company Capitalized
         return {'company': self.clean_string(self.company).title()}
 
+    def get_certificates(self) -> dict:
+        '''
+        A method that finds the certificates in the job posting.
+
+        Returns:
+            dict: A dict with the certificates found in the job posting.
+        '''
+        # Load the certificates.json file
+        certificates = load_config_file('certificates')
+        certificates_detected = self.find_all_matches(certificates, self.target_data)
+        # Get the certificates found in the job posting
+        elements = self.get_final_elements([loc['item'] for loc in certificates_detected])
+
+        return {'certificates': elements}
+
     def get_emails(self) -> dict:
         '''
         A method that finds the emails in the job posting.
@@ -179,10 +196,26 @@ class Matcher(GlobalMatcher):
 
         return {'emails': emails}
 
+    def get_inclusivity(self) -> dict:
+        '''
+        A method to find if the job posting is inclusive or not.
+
+        Returns:
+            dict: A dict with the inclusivity found in the job posting.
+        '''
+        if self.inclusive:
+            return {'inclusive': True}
+        elif not self.inclusive:
+            if re.search(r'inclusiva|oferta inclusiva',self.title,re.IGNORECASE):
+                return {'inclusive': True}
+        return {'inclusive': False}
+
+
+
 if __name__ == '__main__':
     path = os.path.dirname(os.path.abspath(__file__))
     file_path = os.path.abspath(os.path.join(path, '..', '..', 'tests', 'data', 'labeled_jobs.csv'))
-    id = 9
+    id = 124
     item = pd.read_csv(file_path).replace({pd.NA: None,'nan': None, np.nan: None})
     title = item[item['id'] == id]['title'].item()
     work_schedule = item[item['id'] == id]['work_schedule'].item()
@@ -193,17 +226,20 @@ if __name__ == '__main__':
     shift_type = item[item['id'] == id]['shift_type'].item()
     posting_link = item[item['id'] == id]['posting_url'].item()
     company = item[item['id'] == id]['company'].item()
+    inclusive = item[item['id'] == id]['inclusive_posting'].item()
+    labeled_inclusive = item[item['id'] == id]['labeled_inclusive_offer'].item()
 
     matcher_obj = Matcher(
         title = title,
         work_schedule = work_schedule,
         shift_type = shift_type,
-        employment_type = None,
+        employment_type = employment_type,
         description = description,
         requisites = requisites,
         pills = pills,
         posting_link = posting_link,
-        company = company
+        company = company,
+        inclusive=inclusive
     )
-
-    print(matcher_obj.get_company())
+    eval = matcher_obj.get_inclusivity()['inclusive']
+    print(eval)

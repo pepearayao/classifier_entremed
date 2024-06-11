@@ -13,9 +13,9 @@ No other way.
 
 ### 7.6.24
 - [X] Do Company Identifier
-- [ ] Do Certificate Classifer
+- [X] Do Certificate Classifer
 - [X] Do Email identification
-- [ ] Do Job Accesibility
+- [X] Do Job Accesibility
 - [ ] Do Salary Cleaner
 
 ### 6.6.24
