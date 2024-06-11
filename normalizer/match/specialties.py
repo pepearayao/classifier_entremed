@@ -29,4 +29,4 @@ class SpecialtyMatcher(GlobalMatcher):
             final['Enfermería'] = 0
 
         # Return the specialties that were found without duplicates
-        return [key for key,times in final.items() if times > 0]
+        return {"specialties": [key for key,times in final.items() if times > 0]}

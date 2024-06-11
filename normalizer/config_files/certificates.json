@@ -1,0 +1,180 @@
+[
+  {
+    "type": "certificate",
+    "name": "ACLS (Apoyo Vital Cardiopulmonar Avanzado)",
+    "regex_type": "simple",
+    "regex": ["acls","cardiopulmonar.avanzado"],
+    "data": {}
+  },
+  {
+    "type": "certificate",
+    "name": "BLS (Apoyo de Vida Básico)",
+    "regex_type": "simple",
+    "regex": ["\\bbls\\b"],
+    "data": {}
+  },
+  {
+    "type": "certificate",
+    "name": "Registro SIS",
+    "regex_type": "simple",
+    "regex": ["\\b(sis)\\b\\.?", "registro.?nacional.?de.?prestadores.?individuales","registro minsal","registro en minsal","registro en ministerio salud","registro en el ministerio de salud","superintendencia de salud", "registro vigente"],
+    "data": {}
+  },
+  {
+    "type": "certificate",
+    "name": "Programa de Vacunas",
+    "regex_type": "complex",
+    "regex": {
+      "level1": ["\\bvacuna(s)\\b"],
+      "level2":[
+        {
+          "type": "match",
+          "regex": ["programa"]
+        }
+      ]
+    },
+    "data": {}
+  },
+  {
+    "type": "certificate",
+    "name": "Vacunas Hepatitis",
+    "regex_type": "complex",
+    "regex": {
+      "simple_match": ["hepatitis"],
+      "level1": ["\\bvacuna(s)\\b","carnet"],
+      "level2":[
+        {
+          "type": "match",
+          "regex": ["hepatitis","hb"]
+        }
+      ]
+    },
+    "data": {}
+  },
+  {
+    "type": "certificate",
+    "name": "Diploma Gestión de Calidad",
+    "regex_type": "complex",
+    "regex": {
+      "level1": ["diploma.?"],
+      "level2":[
+        {
+          "type": "match",
+          "regex": ["calidad"]
+        }
+      ]
+    },
+    "data": {}
+  },
+  {
+    "type": "certificate",
+    "name": "Diplomado en Intensivo Pediátrico",
+    "regex_type": "complex",
+    "regex": {
+      "level1": ["diploma.?"],
+      "level2":[
+                {
+          "type": "match",
+          "regex": ["pedi[aá]trico"]
+        }
+
+      ]
+    },
+    "data": {}
+  },
+  {
+    "type": "certificate",
+    "name": "Diploma del Proceso Quirúrgico",
+    "regex_type": "complex",
+    "regex": {
+      "level1": ["diploma.?"],
+      "level2":[
+        {
+          "type": "match",
+          "regex": ["quir[uú]rgico"]
+        }
+
+      ]
+    },
+    "data": {}
+  },
+  {
+    "type": "certificate",
+    "name": "IAAS",
+    "regex_type": "simple",
+    "regex": ["iaas","infecciones asociadas"],
+    "data": {}
+  },
+  {
+    "type": "certificate",
+    "name": "Categorización Triage ESI",
+    "regex_type": "simple",
+    "regex": ["triage","\\besi\\b"],
+    "data": {}
+  },
+  {
+    "type": "certificate",
+    "name": "PALS (Apoyo Vital Pediátrico Avanzado)",
+    "regex_type": "simple",
+    "regex": ["pals","Apoyo.Vital.Pedi[aá]trico.Avanzado"],
+    "data": {}
+  },
+  {
+    "type": "certificate",
+    "name": "RCP",
+    "regex_type": "simple",
+    "regex": ["\\brcp\\b","reanimaci[oó]n"],
+    "data": {}
+  },
+  {
+    "type": "certificate",
+    "name": "Protección Radiológica",
+    "regex_type": "simple",
+    "regex": ["protecci[oó]n radiol[oó]gica"],
+    "data": {}
+  },
+  {
+    "type": "certificate",
+    "name": "IRA (Infecciones Respiratorias del Adulto)",
+    "regex_type": "complex",
+    "regex": {
+      "level1": ["respitatoria.?adulto","respiratoria.?del.?adulto","\\bIRA\\b","\\bERA\\b"],
+      "level2":[
+        {
+          "type": "match",
+          "regex": ["bIRA\\b","infecciones"]
+        }
+      ]
+    },
+    "data": {}
+  },
+  {
+    "type": "certificate",
+    "name": "ERA (Enfermerdades Respiratorias del Adulto)",
+    "regex_type": "complex",
+    "regex": {
+      "level1": ["respitatoria.?adulto","respiratoria.?del.?adulto","\\bIRA\\b","\\bERA\\b"],
+      "level2":[
+        {
+          "type": "match",
+          "regex": ["\\bERA\\b","enfermedades"]
+        }
+      ]
+    },
+    "data": {}
+  },
+  {
+    "type": "certificate",
+    "name": "Operador Autoclave",
+    "regex_type": "simple",
+    "regex": ["autoclave"],
+    "data": {}
+  },
+  {
+    "type": "certificate",
+    "name": "Manejo Avanzado de Heridas y Ostomías",
+    "regex_type": "simple",
+    "regex": ["manejo avanzado de heridas","manejo de heridas"],
+    "data": {}
+  }
+]
